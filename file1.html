@@ -1,0 +1,239 @@
+<!DOCTYPE html> <!-- document type declaration for html5-->
+<html lang="en"> <!-- languyages set to english -->
+    <!-- ... -->
+    <head> <!-- Metadata section -->
+        <meta charset+"UTF-8"> <!--  charactter encoding declaration -->
+        <title> My title is here</title> <!-- title of webpage -->
+    </head>
+
+
+
+    <style>
+
+        body {
+            /*Adding a background color*/
+            background-color: pink;/* background*/
+        }
+
+        header,
+        footer {
+            background-color: #333;/* background*/
+            color: white;/* texgt colour*/
+            text-align: center;/*center-align text */
+            padding: 10px 20px;/*Padding */
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: black;/*text colour */
+            font-family: Arial, sans-serif;/*font family */
+        }
+
+        p {
+            font-size: 16px;/* font size*/
+        }
+
+        main {
+            background-color: red;/*background colour */
+            color:white;/* text colour*/
+            padding: 15px;/*padding */
+        }
+
+        strong {
+            color: #900;/*text coloir */
+        }
+
+        em {
+            font-style: italic;/* italitc style*/
+        }
+
+        ul,
+        ol {
+            border: 1px solid #ccc;/* border*/
+            padding: 10px;/*padding */
+            width: 50%;/*width */
+            font-family: 'Courier New', monospace;/* font family*/
+
+        }
+        
+        a,
+        img {
+            width: 200px;/*width */
+            height: auto;/* maintain aspect ratio*/
+            display: block;/* remove extra space */
+            margin: 0 auto;/* center*/
+        }
+        
+        footer {
+            position: fixed;/*Fixed position */
+            bottom: 0;/* align at the bottom*/
+            width: 100%/*full width */
+        }
+    </style>
+
+
+
+    <body>
+        <header>
+            <h1> Welcome to my website</h1> <!-- main heading -->
+            <nav><!-- links go here --> </nav>
+        </header>
+
+        <div>
+            <h1> Using headings </h1>
+            <h1>This is a Heading 1</h1>
+            <h2>This is a Heading 2</h2>
+            <h3>This is a Heading 3</h3>
+            <p> <!-- paragraph --> </p>
+        </div>
+
+        <div>
+            <p> THis is a paragrpah </p>
+            <p> THis is a paragrpah  </p>
+            <p> THis is a paragrpah  </p>
+            <p> THis is a paragrpah </p>
+        </div>
+
+        <div>
+            <h1> main tags </h1>
+            <main>
+                <h1> THis is a main body</h1>
+                <p> <!-- paragraph --> </p>
+            
+                <p> This is <strong> VERY important</strong> information</p>
+                <p> This text is <em> Emphasized </em> for clarity</p>
+            </main>
+        </div>
+
+
+    <div>
+        <hi> using an Unordered HTML list</hi>
+        <ul>
+            <li> Unordered-Item 2</li>
+            <li> Unordered-Item 1</li>
+        </ul>
+        
+        <h1> using an Ordered HTML list</h1>
+        <ol> 
+            <li> Ordered-Item1 </li>
+            <li> Ordered-Item2 </li>
+        </ol>
+    </div>
+
+        <div>
+            <h1>Adding image</h1>
+            <a href="https://www.example.com/page.html">Link to Page</a>
+            <img src="https://www.example.com/images/pic.jpg" alt="Image">
+        </div>
+        <!-- absolute URLs contain the full web address, including protocol, domain name, file path-->
+        <!-- they provide the complete location-->
+
+
+    
+        <footer>
+            <p> My Website. This is a footer.</p>
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="myDiv"> <!-- class attribute links HTML elements to style definition in style sheet-->
+    <p> This is some text in a div element with a classname</p>
+</div><!--javascript  enables accessing and modifying elements-->
+
+
+
+<h1 style="color:blue;"> A Blue Heading </h1>
+<p style="color:red;">A red paragraphg</p>"
+
+
+<!--Internal CSS-->
+<style> 
+    body {background-color: powderblue;}
+    h1 {color: blue;}
+    p {color:red}
+</style>
+
+<!--External CSS-->
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f2f2f2;
+    color: #333333;
+}
+
+h1 { 
+    color: #0066cc;
+    text-align: center;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> External CSS example</title>
+    <!-- link to the external CSS file-->
+    <link rel="stylesheet" type="text/css" href="style.css"
+</head>
+
+<style>
+
+    h1 {
+        color: blue;
+        font-family: verdana;
+        font-size: 300%;
+    }
+    p {
+        color: red;
+        font-family: courier;
+        font-size: 160%;
+    }
+</style>
+
+<style>
+    /*Internal CSS */
+    div{
+        /*Border properties*/
+        border: 2px solid #000;
+    }
+</style> 
+
+<style>
+    /* Internal CSS*/
+    div {
+        padding: 20px; /*Optional: Adding padding to the div*/
+    }
+</style>
+
+<style>
+    body {
+        /*Adding a background color*/
+        background-color: #f0f0f0;
+    }
+</style>
+
