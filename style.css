@@ -33,10 +33,9 @@ h3 {
     background-color: #c4de4f; /* Green background */
     color: rgb(178, 216, 64); /* White text */
     text-align: center; /* Centered text */
-    line-height: center; /* Vertically center text */
-    border: 0px solid #d73f3f; /* Black border */
-    margin: 20px; /* Center block horizontally */
-    border-radius: 30px; /* Rounded corners */
+    line-height: 200px; /* Vertically center text */
+    margin: 20%; /* Center block horizontally */
+    border-radius: 60px; /* Rounded corners */
 
 }
 
