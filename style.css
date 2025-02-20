@@ -13,7 +13,11 @@ footer {
     padding: 10px 20px;/*Padding */
 }
 
-h1,s
+h1 {
+    color: pink;
+    font-family: Arial, sans-serif;
+}
+
 h2,
 h3 {
     color: black;/*text colour */
