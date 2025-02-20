@@ -34,10 +34,10 @@ h3 {
     color: rgb(178, 216, 64); /* White text */
     text-align: center; /* Centered text */
     line-height: 200px; /* Vertically center text */
-    border: 2px solid #d73f3f; /* Black border */
-    margin: 20px auto; /* Center block horizontally */
-    border-radius: 0px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow
+    border: 0px solid #d73f3f; /* Black border */
+    margin: 20px; /* Center block horizontally */
+    border-radius: 30px; /* Rounded corners */
+
 }
 
 p {
