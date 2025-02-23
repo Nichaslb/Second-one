@@ -1,0 +1,11 @@
+leftside {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    
+}
