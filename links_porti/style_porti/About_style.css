@@ -33,3 +33,22 @@ nav {
     left: 0;
 }
 
+
+
+.Bio h1{
+    font-size: 50;
+}
+.Bio {
+    width: 800px;
+    height: 620px;
+    background-color: #4b4b4b; 
+    color: rgb(171, 171, 171); 
+    text-align: center; 
+    line-height: 100px; 
+    
+    border-radius: 0px;
+    margin-left: 300px;
+    margin-right: 120px;
+    border-radius: 20px;
+}
+
